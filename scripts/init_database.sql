@@ -14,12 +14,34 @@ WARNING:
 */
 
 
-DROP DATABASE datawarehouse IF EXISTS;
 
-CREATE DATABASE datawarehouse;
+USE master;
+GO
 
+-- DROP and recreate the 'DataWarehouse' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+BEGIN
+ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+DROP DATABASE DataWarehouse;
+END;
+GO
+
+-- CREATE the 'DataWarehouse' database
+CREATE DATABASE DataWarehouse;
+GO
+
+USE DataWarehouse;
+
+-- CREATE SCHEMA
+
+GO
 CREATE SCHEMA bronze;
 
+GO
 CREATE SCHEMA silver;
-  
+
+GO 
 CREATE SCHEMA gold;
+
+
+

@@ -87,14 +87,50 @@ The project follows the **Medallion Architecture** pattern with **Bronze, Silver
 
 ---
 
-## 🛠️ Tools & Resources (100% Free)
+🛠️ Tools & Resources (100% Free & Clickable)
 
-- **Datasets:** CSV files (ERP & CRM) → `datasets/`
-- **SQL Server Express**
-- **SQL Server Management Studio (SSMS)**
-- **Git & GitHub**
-- **Draw.io** (Architecture, ETL, Models)
-- **Notion** (Project planning & documentation)
+📁 Datasets (CSV Files)
+👉 datasets/
+
+Raw ERP and CRM datasets used as source systems for the data warehouse.
+
+🗄️ SQL Server Express
+👉 https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+Lightweight, free SQL Server edition used to host the data warehouse.
+
+🧰 SQL Server Management Studio (SSMS)
+👉 https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+
+Graphical interface for database development, querying, and administration.
+
+🧑‍💻 Git & GitHub
+👉 https://github.com/
+
+Version control, collaboration, and project hosting.
+
+🖊️ Draw.io (Diagrams & Architecture)
+👉 https://www.drawio.com/
+
+Used for designing:
+
+Data architecture
+
+ETL workflows
+
+Data models (Star Schema)
+
+Data flow diagrams
+
+📝 Notion – Project Template
+👉 https://www.notion.com/templates/sql-data-warehouse-project
+
+Structured project planning and task tracking template.
+
+📋 Notion – Project Steps & Phases
+👉 https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4
+
+Detailed breakdown of project phases, tasks, and implementation steps.
 
 ---
 

@@ -106,30 +106,8 @@ Create SQL-based analytical queries to provide insights into:
 
 ## 📂 Repository Structure
 
-data-warehouse-project/
-│
-├── datasets/                      # Raw source data (CSV files)
-│   ├── erp/                       # ERP source system data
-│   └── crm/                       # CRM source system data
-│
-├── docs/                          # Project documentation & architecture
-│   ├── etl.drawio                 # ETL processes and transformations
-│   ├── data_architecture.drawio   # Overall data warehouse architecture
-│   ├── data_catalog.md            # Dataset catalog & field descriptions
-│   ├── data_flow.drawio           # End-to-end data flow diagram
-│   ├── data_models.drawio         # Star schema & dimensional models
-│   └── naming-conventions.md      # Naming standards for tables & columns
-│
-├── scripts/                       # SQL scripts for ETL pipelines
-│   ├── bronze/                    # Raw data ingestion scripts
-│   ├── silver/                    # Data cleansing & transformation scripts
-│   └── gold/                      # Analytics-ready data models
-│
-├── tests/                         # Data quality checks & validation scripts
-│
-├── README.md                      # Project overview and setup instructions
-├── LICENSE                        # License information
-└── .gitignore                     # Files ignored by Git
+tree /F
+
 
 
 🚀 About Me

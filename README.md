@@ -115,7 +115,6 @@ data-warehouse-project/
 │   ├── data_architecture.drawio   # Overall data warehouse architecture
 │   ├── data_catalog.md            # Dataset metadata and field descriptions
 │   ├── data_flow.drawio           # End-to-end data flow diagram
-│   ├── data_models.drawio         # Star schema and dimensional models
 │   └── naming-conventions.md      # Naming standards for tables and columns
 │
 ├── scripts/

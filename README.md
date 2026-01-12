@@ -105,35 +105,30 @@ Create SQL-based analytical queries to provide insights into:
 ---
 
 ## 📂 Repository Structure
-
+<pre>
 data-warehouse-project/
-
-- datasets/  
-  - Raw source data (ERP & CRM CSV files)
-
-- docs/  
-  - etl.drawio – ETL techniques and transformations  
-  - data_architecture.drawio – Overall data warehouse architecture  
-  - data_catalog.md – Dataset metadata and field descriptions  
-  - data_flow.drawio – End-to-end data flow diagram  
-  - data_models.drawio – Star schema and dimensional models  
-  - naming-conventions.md – Naming standards for tables and columns  
-
-- scripts/  
-  - bronze/ – Raw data ingestion scripts  
-  - silver/ – Data cleansing and transformation scripts  
-  - gold/ – Analytics-ready data models  
-
-- tests/  
-  - Data quality and validation scripts  
-
-- README.md – Project overview and setup instructions  
-- LICENSE – License information
-- .gitignore – Git ignored files
-- requirements.txt – Project dependencies
-
-
-
+├── datasets/
+│   └── Raw source data (ERP & CRM CSV files)
+│
+├── docs/
+│   ├── etl.drawio                 # ETL techniques and transformations
+│   ├── data_architecture.drawio   # Overall data warehouse architecture
+│   ├── data_catalog.md            # Dataset metadata and field descriptions
+│   ├── data_flow.drawio           # End-to-end data flow diagram
+│   ├── data_models.drawio         # Star schema and dimensional models
+│   └── naming-conventions.md      # Naming standards for tables and columns
+│
+├── scripts/
+│   ├── bronze/                    # Raw data ingestion scripts
+│   ├── silver/                    # Data cleansing and transformation scripts
+│   └── gold/                      # Analytics-ready data models
+│
+├── tests/
+│   └── Data quality and validation scripts
+│
+├── README.md                      # Project overview and setup instructions
+├── LICENSE                        # License information
+</pre>
 🚀 About Me
 ---
 👋 Hi, I’m Anmol Singh. I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting.

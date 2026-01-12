@@ -136,7 +136,5 @@ data-warehouse-project/
 
 🚀 About Me
 ---
-👋 Hi, I’m Anmol Singh
----
-I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting.
+👋 Hi, I’m Anmol Singh. I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting.
 I build scalable data solutions that transform raw data into business-ready insights.

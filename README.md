@@ -2,9 +2,9 @@
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-4CAF50?style=for-the-badge)
-![ETL](https://img.shields.io/badge/ETL%20Pipelines-2196F3?style=for-the-badge)
+![ETL Pipelines](https://img.shields.io/badge/ETL%20Pipelines-2196F3?style=for-the-badge)
 ![Star Schema](https://img.shields.io/badge/Star%20Schema-FF9800?style=for-the-badge)
-![SQL](https://img.shields.io/badge/Advanced%20SQL-00758F?style=for-the-badge&logo=postgresql&logoColor=white)
+![Advanced SQL](https://img.shields.io/badge/Advanced%20SQL-00758F?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Portfolio Project](https://img.shields.io/badge/Portfolio%20Project-9C27B0?style=for-the-badge)
 
 ---
@@ -106,3 +106,32 @@ Create SQL-based analytical queries to provide insights into:
 
 ## 📂 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/ # Raw source data (CSV files)
+│
+├── docs/ # Documentation & architecture
+│ ├── etl.drawio
+│ ├── data_architecture.drawio
+│ ├── data_catalog.md
+│ ├── data_flow.drawio
+│ ├── data_models.drawio
+│ ├── naming-conventions.md
+│
+├── scripts/ # SQL ETL scripts
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+│
+├── tests/ # Data quality & validation scripts
+│
+├── README.md
+├── LICENSE
+
+👋 Hi, I’m Anmol Singh
+
+
+🚀 About Me
+
+I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting.
+I build scalable data solutions that transform raw data into business-ready insights.

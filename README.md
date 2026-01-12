@@ -108,30 +108,33 @@ Create SQL-based analytical queries to provide insights into:
 
 data-warehouse-project/
 │
-├── datasets/ # Raw source data (CSV files)
+├── datasets/                      # Raw source data (CSV files)
+│   ├── erp/                       # ERP source system data
+│   └── crm/                       # CRM source system data
 │
-├── docs/ # Documentation & architecture
-│ ├── etl.drawio
-│ ├── data_architecture.drawio
-│ ├── data_catalog.md
-│ ├── data_flow.drawio
-│ ├── data_models.drawio
-│ ├── naming-conventions.md
+├── docs/                          # Project documentation & architecture
+│   ├── etl.drawio                 # ETL processes and transformations
+│   ├── data_architecture.drawio   # Overall data warehouse architecture
+│   ├── data_catalog.md            # Dataset catalog & field descriptions
+│   ├── data_flow.drawio           # End-to-end data flow diagram
+│   ├── data_models.drawio         # Star schema & dimensional models
+│   └── naming-conventions.md      # Naming standards for tables & columns
 │
-├── scripts/ # SQL ETL scripts
-│ ├── bronze/
-│ ├── silver/
-│ ├── gold/
+├── scripts/                       # SQL scripts for ETL pipelines
+│   ├── bronze/                    # Raw data ingestion scripts
+│   ├── silver/                    # Data cleansing & transformation scripts
+│   └── gold/                      # Analytics-ready data models
 │
-├── tests/ # Data quality & validation scripts
+├── tests/                         # Data quality checks & validation scripts
 │
-├── README.md
-├── LICENSE
-
-👋 Hi, I’m Anmol Singh
+├── README.md                      # Project overview and setup instructions
+├── LICENSE                        # License information
+└── .gitignore                     # Files ignored by Git
 
 
 🚀 About Me
-
+---
+👋 Hi, I’m Anmol Singh
+---
 I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting.
 I build scalable data solutions that transform raw data into business-ready insights.

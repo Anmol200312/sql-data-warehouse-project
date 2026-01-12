@@ -107,28 +107,31 @@ Create SQL-based analytical queries to provide insights into:
 ## 📂 Repository Structure
 
 data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   └── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   └── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+
+- datasets/  
+  - Raw source data (ERP & CRM CSV files)
+
+- docs/  
+  - etl.drawio – ETL techniques and transformations  
+  - data_architecture.drawio – Overall data warehouse architecture  
+  - data_catalog.md – Dataset metadata and field descriptions  
+  - data_flow.drawio – End-to-end data flow diagram  
+  - data_models.drawio – Star schema and dimensional models  
+  - naming-conventions.md – Naming standards for tables and columns  
+
+- scripts/  
+  - bronze/ – Raw data ingestion scripts  
+  - silver/ – Data cleansing and transformation scripts  
+  - gold/ – Analytics-ready data models  
+
+- tests/  
+  - Data quality and validation scripts  
+
+- README.md – Project overview and setup instructions  
+- LICENSE – License information
+- .gitignore – Git ignored files
+- requirements.txt – Project dependencies
+
 
 
 🚀 About Me
